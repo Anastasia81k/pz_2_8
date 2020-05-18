@@ -1,0 +1,14 @@
+const path = require("path");
+const os = require("os");
+let resolve = path.resolve('C:\\Users\\Nastya\\WebstormProjects\\pz_2_8\\task3.js');
+console.log(resolve);
+//let dirname = path.dirname('C:\\Users\\Nastya\\WebstormProjects\\pz_2_8\\task3.js');
+//console.log(dirname);
+let filename = path.basename('C:\\Users\\Nastya\\WebstormProjects\\pz_2_8\\task3.js');
+console.log(filename);
+let extname = path.extname('C:\\Users\\Nastya\\WebstormProjects\\pz_2_8\\task3.js');
+let extName = extname.slice(1);
+console.log(extName);
+let arch = os.arch();
+console.log(arch);
+console.log('platform : ' + os.platform());
