@@ -17,7 +17,7 @@
     "chalk": "^4.0.0",
     "fs": "0.0.1-security",
     "jaxcore-say-node": "0.0.6",
-    "nodemailer": "^6.4.6",
+    "nodemailer": "^6.4.16",
     "os": "^0.1.1",
     "path": "^0.12.7",
     "play-sound": "^1.1.3",
